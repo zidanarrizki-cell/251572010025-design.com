@@ -4,19 +4,95 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Profil Saya</title>
     <style>
-        body { font-family: Arial, sans-serif; line-height: 1.6; margin: 40px; background-color: #f4f4f4; }
-        .container { background: white; padding: 20px; border-radius: 8px; box-shadow: 0 0 10px rgba(0,0,0,0.1); max-width: 800px; margin: auto; }
-        h1, h2 { color: #333; }
+        /* Mengatur dasar halaman */
+        body { 
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
+            line-height: 1.7; 
+            margin: 0; 
+            padding: 40px 20px;
+            background-color: #f0f4f8; 
+            color: #333;
+        }
+
+        /* Container utama */
+        .container { 
+            background: #ffffff; 
+            padding: 40px; 
+            border-radius: 12px; 
+            box-shadow: 0 4px 20px rgba(0,0,0,0.08); 
+            max-width: 750px; 
+            margin: auto; 
+        }
+
+        /* Desain Judul Utama */
+        h1 { 
+            color: #1a365d; 
+            font-size: 2.2rem;
+            margin-top: 0;
+            margin-bottom: 10px;
+            text-align: center;
+        }
+
+        /* Garis pembatas modern */
+        .divider {
+            height: 4px;
+            width: 80px;
+            background: #3182ce;
+            margin: 0 auto 30px auto;
+            border-radius: 2px;
+        }
+
+        /* Desain Sub-Judul (Heading 2) */
+        h2 { 
+            color: #2b6cb0; 
+            font-size: 1.3rem;
+            border-left: 4px solid #3182ce;
+            padding-left: 12px;
+            margin-top: 30px;
+            margin-bottom: 12px;
+        }
+
+        /* Bagian Identitas Kelompok/Umum */
+        .identity-box {
+            background-color: #f7fafc;
+            padding: 20px;
+            border-radius: 8px;
+            border: 1px solid #e2e8f0;
+            margin-bottom: 25px;
+        }
+
+        .identity-box p {
+            margin: 8px 0;
+            font-size: 1.1rem;
+        }
+
+        .identity-box strong {
+            color: #4a5568;
+            width: 100px;
+            display: inline-block;
+        }
+
+        /* Teks narasi paragraf */
+        p {
+            color: #4a5568;
+            font-size: 1.05rem;
+            margin-bottom: 20px;
+            text-align: justify;
+        }
     </style>
 </head>
 <body>
+
     <div class="container">
         <h1>Profil Mahasiswa</h1>
-        <hr>
+        <div class="divider"></div>
+        
         <h2>Identitas Umum</h2>
-        <p><strong>Nama:</strong> Zidan</p>
-        <p><strong>NIM:</strong> 251572010025</p>
-        <p><strong>Jurusan:</strong> Teknik Informatika / Sistem Informasi</p>
+        <div class="identity-box">
+            <p><strong>Nama:</strong> Zidan</p>
+            <p><strong>NIM:</strong> 251572010025</p>
+            <p><strong>Jurusan:</strong> Teknik Informatika / Sistem Informasi</p>
+        </div>
 
         <h2>Alasan Memilih Jurusan IT/SI</h2>
         <p>Saya memilih jurusan ini karena sangat tertarik dengan perkembangan teknologi masa kini dan ingin berkarir di industri digital.</p>
@@ -30,7 +106,6 @@
         <h2>Cita-cita dan Tujuan Karir</h2>
         <p>Cita-cita saya di masa depan adalah ingin menjadi seorang DevOps Engineer atau Cloud Specialist profesional.</p>
     </div>
+
 </body>
 </html>
-
-~
