@@ -1,0 +1,9 @@
+version: '3.8'
+
+services:
+  web-profil:
+    build: .
+    image: zidan251572010025/design.com:latest
+    ports:
+      - "8085:80"
+    restart: always
